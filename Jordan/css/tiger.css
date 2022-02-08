@@ -1,0 +1,32 @@
+body {
+    font-family: Gill Sans, sans-serif;
+    background-color: #f17836;
+    text-align: center;
+    color: black;
+}
+
+.container {
+    display:flex;
+    justify-content: space-between;
+}
+
+#tiger_pic {
+    float:left;
+    width: 40%;
+    height: 40%;
+    box-sizing: border-box;
+    padding-left: 100px;
+}
+
+#description {
+    float:right;
+    width: 40%;
+    box-sizing:border-box;
+    padding: 20px;
+    border:2px black solid;
+    font-size: 20px;
+}
+
+hr {
+    border: 1px solid black;
+}
