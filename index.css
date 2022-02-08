@@ -1,0 +1,40 @@
+body {
+    font-family: Gill Sans, sans-serif;
+    background-color: salmon;
+    text-align: center;
+  }
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: white;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.zoo_links {
+    border:1px #ccc solid;
+	padding:10px;
+	border-radius:15px;
+}
+
+.zoo_links ul {
+    padding: 0;
+    padding-left: 30px;
+}
+
+.zoo_links li {
+    padding-bottom:6px;
+	border-bottom:solid 1px #ccc;
+    list-style-image: url("Jordan/pictures/catemoji.png");
+}
