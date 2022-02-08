@@ -1,0 +1,10 @@
+body {
+    font-family: Courier New;
+    background-color: rgb(87, 130, 224);
+    text-align: center;
+  }
+
+.resize{
+    width:50%;
+    height:50%;
+}
