@@ -10,10 +10,10 @@ body {
     justify-content: space-between;
 }
 
-#tiger_pic {
+#cat_pic {
     float:left;
-    width: 40%;
-    height: 40%;
+    width: 50%;
+    height: 50%;
     box-sizing: border-box;
     padding-left: 100px;
 }
