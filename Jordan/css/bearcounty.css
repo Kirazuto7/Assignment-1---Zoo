@@ -1,12 +1,8 @@
 body {
     font-family: Gill Sans, sans-serif;
-    background-color: black;
-    color: white;
+    background-color: #7b3f00;
     text-align: center;
-}
-
-#sub_heading {
-    color: red;
+    color: #dfd268;
 }
 
 .container {
@@ -14,7 +10,7 @@ body {
     justify-content: space-between;
 }
 
-#dino_pic {
+#bear_pic {
     float:left;
     width: 55%;
     height: 55%;
@@ -25,9 +21,12 @@ body {
 #description {
     float:right;
     width: 40%;
-    box-sizing: border-box;
+    box-sizing:border-box;
     padding: 20px;
-    flex-wrap: wrap;
-    border:2px #ccc solid;
+    border:2px #dfd268 solid;
     font-size: 20px;
+}
+
+hr {
+    border: 1px solid #dfd268;
 }
