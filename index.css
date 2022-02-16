@@ -1,52 +1,14 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
-    background-color: white;
     text-align: center;
+    background: url(pictures/sky.jpg) top no-repeat, url(pictures/grass.jpg) bottom repeat;
+    background-size: contain;
   }
 
-a {
-    text-decoration: none;
-    color: blue;
-}
-
-a:hover {
-    color: red;
-}
-
-a:active {
-    color: white;
-}
-
-.container {
-    width: 40%;
-    margin: auto;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-}
-
-.zoo_links {
-    border:1px #ccc solid;
-	padding:10px;
-	border-radius:15px;
-}
-
-.zoo_links ul {
-    padding: 0;
-    padding-left: 30px;
-}
-
-.zoo_links li {
-    padding-bottom:6px;
-	border-bottom:solid 1px #ccc;
-    list-style-image: url("Jordan/pictures/catemoji.png");
-}
-
-.button {
-    background-color: #008CBA; /* Blue */
+button {
+    /*background-color: #008CBA; *//* Blue */
+    background-color: yellowgreen;
     border: none;
     color: white;
     padding: 10px;
@@ -57,9 +19,118 @@ a:active {
     font-size: 16px;
     border-radius: 4px;
     transition-duration: 0.4s;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px #000;
 }
 
-.button:hover {
-    background-color: #026c8f; /* Darker blue */
+button:hover {
+    background-color: #026c8f;  /* Darker blue */
+}
+
+a {
+    text-decoration: none;
     color: white;
 }
+
+a:hover {
+    color: yellow;
+}
+
+a:active {
+    color: white;
+}
+
+h1 {
+    background-color: white;
+    max-width: fit-content;
+    margin-left: 40%;
+}
+
+h3 {
+    background-color: white;
+    max-width: fit-content;
+    margin-left: 35%;
+}
+
+.zoo_container {
+    height: auto;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.zoo_container_top {
+    display: flex;
+    flex-direction: row;
+}
+
+.zoo_container_bottom {
+    display: flex;
+    flex-direction: row;
+}
+
+.jordan_container {
+    flex: 1;
+    order: 1;
+    background-image: url(pictures/jordanzoo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+    border: 2px black solid;
+}
+
+.chris_container {
+    flex: 1;
+    order: 2;
+    background-image: url(pictures/chriszoo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+    border: 2px black solid;
+}
+
+.arifa_container {
+    flex: 1;
+    order: 1;
+    flex-basis: 50%;
+    background-image: url(pictures/arifazoo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+    border: 2px black solid;
+}
+
+.ephraim_container {
+    flex: 1;
+    order: 2;
+    flex-basis: 50%;
+    background-image: url(pictures/ephraimzoo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+    border: 2px black solid;
+}
+
+#zoo_title {
+    color: white;
+    margin-top: 30px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px #000;
+}
+
+#enter_button {
+    width: 20%;
+    margin-top: 60%;
+    margin-bottom: 20px;
+    border: 2px black solid;
+}
+
+.title_box {
+    background-color: yellowgreen;
+    max-width: fit-content;
+    margin-left: 40%;
+}
+
+#main_footer {
+    color: white;
+}
+
+
+
