@@ -15,7 +15,8 @@ body {
     width: 55%;
     height: 55%;
     box-sizing: border-box;
-    padding-left: 100px;
+    margin-left: 40px;
+    border: 2px black solid;
 }
 
 #description {
@@ -23,10 +24,10 @@ body {
     width: 40%;
     box-sizing:border-box;
     padding: 20px;
-    border:2px #dfd268 solid;
+    border:2px black solid;
     font-size: 20px;
 }
 
 hr {
-    border: 1px solid #dfd268;
+    border: 1px solid black;
 }

@@ -15,7 +15,8 @@ body {
     width: 50%;
     height: 50%;
     box-sizing: border-box;
-    padding-left: 100px;
+    margin-left: 80px;
+    border: 2px black solid;
 }
 
 #description {
