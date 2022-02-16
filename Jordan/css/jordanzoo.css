@@ -10,7 +10,7 @@ body {
 }
 
 .resize {
-    border: 3px black solid;
+    border: 3px white solid;
     border-radius: 50%;
     height: 20%;
     width: 20%;
