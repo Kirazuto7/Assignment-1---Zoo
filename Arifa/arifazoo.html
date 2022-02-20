@@ -3,22 +3,77 @@
   <title>Arifa's Zoo</title>
   <link rel="stylesheet" type="text/css" href="css/arifazoo.css">
 </head>
+
 <body>
-  <h1>Welcome to Arifa's Zoo</h1>
-  <h3>Check out the animals at my zoo:</h3>
-  <div class="link">
-    <a href="redpanda.html">Red Panda</a>
-  </div>
-
-  <div class="link">
-    <a href="koala.html">Koala</a>
-  </div>
-
-  <div class="link">
-    <a href="peafowl.html">Indian Peafowl</a>
-  </div>
+  <h1 id="welcome_title"> Welcome to Arifa's Zoo!</h1>
+  <h3 id="sub_title">Take a look around</h3>
   
-  <div class="link">
-    <a href="zebra.html">Zebra</a>
+  <div class="row">
+    <div class="column">
+      
+      <h2>The Cuddly Ones</h2>
+      <div class="link">
+        <a href="redpanda.html">
+          <div class="image">
+            <img class="image__img" src="images/red-panda2.jpg" alt="red panda">
+            <div class="image__overlay">
+              <div class="image__title">Red Panda</div>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <br>
+      <br>
+  
+      <div class="link">
+        <a href="koala.html">
+          <div class="image">
+            <img class="image__img" src="images/koala2.jpeg" alt="koala">
+            <div class="image__overlay">
+              <div class="image__title">Koala</div>
+            </div>
+          </div>
+        </a>
+      </div>
+
+    </div>
+
+    <div class="column">
+
+      <h2>The Fashionable Ones</h2>
+      <div class="link">
+        <a href="peafowl.html">
+          <div class="image">
+            <img class="image__img" src="images/peafowl.jpg" alt="peafowl">
+            <div class="image__overlay">
+              <div class="image__title">Peafowl</div>
+            </div>
+          </div>
+        </a>
+      </div>
+    
+      <br>
+      <br>
+  
+      <div class="link">
+        <a href="zebra.html">
+          <div class="image">
+            <img class="image__img" src="images/zebra.jpg" alt="zebra">
+            <div class="image__overlay">
+              <div class="image__title">Zebra</div>
+            </div>
+          </div>
+        </a>
+      </div>
+
+    </div>
+    
   </div>
+
+  <form>
+    <input type="button" class="button" value="Home Page" onclick="history.back()">
+  </form>
+  <br>
+  
 </body>

@@ -1,5 +1,83 @@
 body {
-    font-family: Gill Sans, sans-serif;
-    background-color: rgb(137, 95, 143);
-    text-align: center;
-  }
+  margin: 0;
+  font-family: Garamond;
+  background-color: rgb(188, 114, 199);
+  text-align: center;
+  color: gold;
+  font-size: 20px;
+}
+
+#welcome_title {
+  color: gold;
+  font-family: Copperplate;
+  font-size: 50px;
+}
+
+#sub_title {
+  color: gold;
+  font-family: Copperplate;
+  font-size: 35px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.image {
+  margin-right: auto;
+  margin-left: auto;
+  height: 450px;
+  width: 700px;
+  border: 5px gold solid;
+  position: relative;
+}
+
+.image__img {
+  display: block;
+  width: 100%;
+  height: 440px;
+}
+
+.image__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(15px);
+  color: gold;
+  font-family: Copperplate;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.30s;
+}
+
+.image__overlay:hover {
+  opacity: 1;
+}
+
+.image__title {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.button{
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 15px;
+}
