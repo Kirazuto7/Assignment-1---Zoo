@@ -1,5 +1,5 @@
 body {
-    font-family: Gill Sans, sans-serif;
+    font-family: 'Noto Serif Display', serif;
     background-color: #d4af47;
     text-align: center;
     line-height: 1.6em;
@@ -9,25 +9,92 @@ body {
     color: yellow;
 }
 
-.resize {
+.animal_containers {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.container {
+    display: grid;
+    place-items: center;
+}
+
+.tiger_pic {
+    flex: 1;
+    order: 1;
+    width: 450px;
+    height: 450px;
+    margin: 0 auto;
     border: 3px white solid;
-    border-radius: 50%;
-    height: 20%;
-    width: 20%;
+    border-radius: 40%;
+    box-sizing: border-box;
+    background-image: url(../pictures/tigerpfp.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+
+}
+
+.dino_pic {
+    flex: 1;
+    order: 2;
+    width: 450px;
+    height: 450px;
+    margin: 0 auto;
+    border: 3px white solid;
+    border-radius: 40%;
+    box-sizing: border-box;
+    background-image: url(../pictures/dino.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.bear_pic {
+    flex: 1;
+    order: 3;
+    width: 450px;
+    height: 450px;
+    margin: 0 auto;
+    border: 3px white solid;
+    border-radius: 40%;
+    box-sizing: border-box;
+    background-image: url(../pictures/bearpfp.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
 }
 
 .animal_title
-{
-    font-size: 20px;
+{   
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 40px;
     color: white;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px #000;
+    white-space: nowrap;
 }
 
 #title {
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px #000;
+    font-size: 60px;
 }
 
 #sub_title {
+    margin: 0 auto;
+    padding: auto;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px #000;
+    font-size: 30px;
+}
+
+.back_button {
+    padding: 5px 15px;
+    background-color: green;
+    color: white;
 }
 
