@@ -1,9 +1,33 @@
 body {
-    font-family: Courier New;
-    background-color: rgb(60, 83, 119);
-    text-align: center;
+  font-family: Copperplate;
+  font-size: 25px;
+  text-align: center;
+  background-image: url(../images/koala_background.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
   }
+
+span {
+  background-color: #1f7fce;
+  }
+
+.fact_box{
+  border-style:solid;
+  border-color:#584308;
+  background-color: #1f7fce;
+  width: fit-content;
+  height: fit-content;
+  margin: auto;
+}
+
+.button{
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 15px;
+}
+
 img {
-    width: 600px;
-    height: 600px;    
+    width: 500px;
+    height: 500px;    
 }
