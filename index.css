@@ -49,6 +49,7 @@ a:active {
     font-weight: bold;
     color: darkblue;
     max-width: fit-content;
+    font-family: 'Noto Serif Display', serif;
 }
 
 .sub_title {
@@ -58,6 +59,7 @@ a:active {
     max-width: fit-content;
     margin: 0 auto;
     color: darkblue;
+    font-family: 'Noto Serif Display', serif;
 }
 
 .zoo_container {
