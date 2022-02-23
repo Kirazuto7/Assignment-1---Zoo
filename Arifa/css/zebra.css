@@ -1,9 +1,33 @@
 body {
-    font-family: Courier New;
-    background-color: rgba(195, 189, 94, 0.876);
-    text-align: center;
+  font-family: Copperplate;
+  font-size: 25px;
+  text-align: center;
+  background-image: url(../images/zebra_background.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
   }
+
+span {
+  background-color: #d3c49a;
+  }
+
+.fact_box{
+  border-style:solid;
+  border-color:#4e8339;
+  background-color: #d3c49a;
+  width: fit-content;
+  height: fit-content;
+  margin: auto;
+}
+
+.button{
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 15px;
+}
+
 img {
-    width: 800px;
-    height: 600px;    
+    width: 650px;
+    height: 450px;    
 }
