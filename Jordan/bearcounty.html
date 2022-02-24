@@ -6,61 +6,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jordan's Zoo</title>
     <link rel="stylesheet" type="text/css" href="css/bearcounty.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1><u>Welcome to Bear County</u></h1>
+    <h1 class="title"><u>Welcome to Bear County</u></h1>
 
-    <h2>Grizzly Bear</h2>
+    <h2 id="animal_title">Grizzly Bear</h2>
+    <br>
     <div class="container">
         <img id="bear_pic" src="pictures/grizzly.jpeg" alt="grizzly bear">
         <aside id="description">
-            <p>
+            <p id="text">
                 The grizzly bear, also known as the North American brown bear or simply grizzly, is a population or subspecies 
                 of the brown bear inhabiting North America. Although variable in color from blond to nearly black, grizzly bear fur is 
                 typically brown with darker legs and commonly white or blond tipped fur on the flank and back. Although grizzlies are 
                 of the order Carnivora and have the digestive system of carnivores, they are normally omnivores: their diets consist of 
                 both plants and animals. They have been known to prey on large mammals, when available, such as moose, elk, caribou, 
-                white-tailed deer, mule deer, bighorn sheep, bison, and even black bears, though they are more likely to take calves and 
-                injured individuals rather than healthy adults. Grizzly bears feed on fish such as salmon, trout, and bass, and those 
-                with access to a more protein-enriched diet in coastal areas potentially grow larger than inland individuals. 
-                Grizzly bears also readily scavenge food or carrion left behind by other animals.
+                white-tailed deer, mule deer, bighorn sheep, bison, and even black bears.Grizzly bears feed on fish such as salmon, trout, and bass.
             </p>
         </aside>
     </div>
     
     <br><hr>
 
-    <h2>Black Bear</h2>
+    <h2 id="animal_title">Black Bear</h2>
+    <br>
     <div class="container">
         <img id="bear_pic" src="pictures/blackbear.jpeg" alt="black bear">
         <aside id="description">
-            <p>
+            <p id="text">
                 The American black bear or simply black bear, is a medium-sized bear endemic to North America. It is the continent's 
                 smallest and most widely distributed bear species. American black bears are omnivores, with their diets varying greatly 
                 depending on season and location. They typically live in largely forested areas, but will leave forests in search of 
-                food, and are sometimes attracted to human communities due to the immediate availability of food. Despite the name, 
-                some subspecies can be brown or even blond in coloration. The Asian black bear, also known as the Asiatic black bear, 
+                food, and are sometimes attracted to human communities due to the immediate availability of food. The Asian black bear, also known as the Asiatic black bear, 
                 moon bear and white-chested bear, is a medium-sized bear species native to Asia that is largely adapted to an arboreal 
-                lifestyle. It lives in the Himalayas, southeastern Iran, the northern parts of the Indian subcontinent, 
-                the Korean Peninsula, northeastern China, the Russian Far East, the islands of Honshū and Shikoku in Japan, and Taiwan. 
+                lifestyle. 
             </p>
         </aside>
     </div>
     
     <br><hr>
 
-    <h2>Polar Bear</h2>
+    <h2 id="animal_title">Polar Bear</h2>
+    <br>
     <div class="container">
         <img id="bear_pic" src="pictures/polarbear.jpeg" alt="polar bear">
         <aside id="description">
-            <p>
+            <p id="text">
                 The polar bear is the largest extant bear species, as well as the largest extant land carnivore. 
-                A boar (adult male) weighs around 350–700 kg (770–1,540 lb), while a sow (adult female) is about half that size. 
                 Although it is the sister species of the brown bear, it has evolved to occupy a narrower ecological niche, 
                 with many body characteristics adapted for cold temperatures, for moving across snow, ice and open water, and 
-                for hunting seals, which make up most of its diet.[10] Although most polar bears are born on land, they spend most 
-                of their time on the sea ice. Their scientific name means "maritime bear" and derives from this fact. Polar bears 
-                hunt their preferred food of seals from the edge of sea ice, often living off fat reserves when no sea ice is present. 
+                for hunting seals, which make up most of its diet. Although most polar bears are born on land, they spend most 
+                of their time on the sea ice. Polar bears hunt their preferred food of seals from the edge of sea ice, often living off fat reserves when no sea ice is present. 
                 Because of their dependence on the sea ice, polar bears are classified as marine mammals.
             </p>
         </aside>
@@ -68,11 +67,12 @@
     
     <br><hr>
     
-    <h2>Panda Bear</h2>
+    <h2 id="animal_title">Panda Bear</h2>
+    <br>
     <div class="container">
         <img id="bear_pic" src="pictures/panda.jpeg" alt="panda">
         <aside id="description">
-            <p>
+            <p id="text">
                 The giant panda, also known as the panda bear (or simply the panda), is a bear native to South Central China. 
                 It is characterised by its bold black-and-white coat and rotund body. The name "giant panda" is sometimes used to
                  distinguish it from the red panda, a neighboring musteloid. Though it belongs to the order Carnivora, the giant panda 
@@ -85,7 +85,8 @@
     <br>
 
     <form>
-        <input type="button" value="Back" onclick="history.back()">
+        <input type="button" class="back_button" value="Jordan's Zoo" onclick="window.location.href = 'jordanzoo.html'">
+        <input type="button" class="back_button" value="Home Page" onclick="window.location.href = '../index.html'">
     </form>
     
 </body>

@@ -1,34 +1,107 @@
 body {
-    font-family: Gill Sans, sans-serif;
+    font-family: 'Work Sans', sans-serif;
     background-color: black;
+    background: url(../pictures/dinosaur.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     color: white;
     text-align: center;
 }
 
+.title {
+    font-family: 'Architects Daughter', cursive;
+    font-size: 50px;
+    color: rgb(115, 214, 115);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px #000;
+}
+
 #sub_heading {
+    font-family: 'Architects Daughter', cursive;
+    font-size: 30px;
     color: red;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px #000;
+}
+
+#animal_title {
+    font-family: 'Architects Daughter', cursive;
+    font-size: 40px;
+    color: rgb(115, 214, 115);
+    border-radius: 15px;
+    background-color: black;
+    box-shadow: 5px 5px rgb(115, 214, 115);
+    max-width: fit-content;
+    margin: 0 auto;
+}
+
+#animal_title2 {
+    font-family: 'Architects Daughter', cursive;
+    font-size: 40px;
+    color: rgb(15, 135, 248);
+    border-radius: 15px;
+    background-color: black;
+    box-shadow: 5px 5px rgb(15, 135, 248);
+    max-width: fit-content;
+    margin: 0 auto;
 }
 
 .container {
     display:flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    height: 500px;
+    justify-content: center;
 }
 
 #dino_pic {
     float:left;
-    width: 55%;
-    height: 55%;
-    box-sizing: border-box;
-    margin-left: 50px;
-    border: 2px #ccc solid;
+    margin-left: 80px;
+    border: 2px black solid;
+    border-right: 1px;
+    width: 700px;
 }
 
 #description {
     float:right;
-    width: 40%;
-    box-sizing: border-box;
-    padding: 20px;
+    width: 700px;
+    box-sizing:border-box;
+    border:2px black solid;
+    font-size: 23px;
     flex-wrap: wrap;
-    border:2px #ccc solid;
-    font-size: 20px;
+    background-color: black;
+    color: rgb(115, 214, 115);
+}
+
+#description2 {
+    float:right;
+    width: 700px;
+    box-sizing:border-box;
+    border:2px black solid;
+    font-size: 23px;
+    flex-wrap: wrap;
+    background-color: black;
+    color: rgb(15, 135, 248);
+}
+
+#text {
+    margin: 0 auto;
+    position:relative;
+    top: 20%;
+    bottom: 50%;
+    background-color: black;
+}
+
+.back_button {
+    padding: 10px 20px;
+    background-color: lightgreen;
+    color: black;
+}
+
+.back_button:hover {
+    background-color: black;
+    color: white;
+}
+
+.back_button:active {
+    color: red;
 }
