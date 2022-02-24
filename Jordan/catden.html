@@ -13,9 +13,24 @@
 </head>
 <body>
     <h1 class="title"><u>Welcome to the Cat Den</u></h1>
-    <h3 id="sub_heading">Meowww</h3>
+    <h3 id="sub_heading"><em>Meowww</em></h3>
 
-    <h2 id="animal_title">Tiger</h2>
+    <nav class="navbar">
+        <a href="../index.html">Home Page</a>
+        <div class="animal_dropdown">
+            <button class="drop_button">Animals &darr; 
+            </button>
+            <div class="dropdown_content">
+                <a class="nav-item" href="#Tiger">Tiger</a>
+                <a class="nav-item" href="#White Tiger">White Tiger</a>
+                <a class="nav-item" href="#Lion">Lion</a>
+                <a class="nav-item" href="#Liger">Liger</a>
+            </div>
+        </div>
+        <a href="jordanzoo.html">Jordan's Zoo</a>
+    </nav>
+    <br>
+    <h2 class="animal_title" id="Tiger">Tiger</h2>
     <br>
     <div class="container">
         <img id="cat_pic" 
@@ -35,7 +50,7 @@
     
     <br><hr>
 
-    <h2 id="animal_title">White Tiger</h2>
+    <h2 class="animal_title" id="White Tiger">White Tiger</h2>
     <br>
     <div class="container">
         <img id="cat_pic"
@@ -55,7 +70,7 @@
     
     <br><hr>
 
-    <h2 id="animal_title">Lion</h2>
+    <h2 class="animal_title" id="Lion">Lion</h2>
     <br>
     <div class="container">
         <img id="cat_pic" src="pictures/lion.jpg" alt="lion">
@@ -73,7 +88,7 @@
     
     <br><hr>
     
-    <h2 id="animal_title">Liger</h2>
+    <h2 class="animal_title" id="Liger">Liger</h2>
     <br>
     <div class="container">
         <img id="cat_pic" src="pictures/liger.jpg" alt="liger">
@@ -92,7 +107,6 @@
 
     <form>
         <input type="button" class="back_button" value="Jordan's Zoo" onclick="window.location.href = 'jordanzoo.html'">
-        <input type="button" class="back_button" value="Home Page" onclick="window.location.href = '../index.html'">
     </form>
     
 </body>

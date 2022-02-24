@@ -13,7 +13,23 @@
 <body>
     <h1 class="title"><u>Welcome to Bear County</u></h1>
 
-    <h2 id="animal_title">Grizzly Bear</h2>
+    <nav class="navbar">
+        <a href="../index.html">Home Page</a>
+        <div class="animal_dropdown">
+            <button class="drop_button">Animals &darr; 
+            </button>
+            <div class="dropdown_content">
+                <a class="nav-item" href="#Grizzly Bear">Grizzly Bear</a>
+                <a class="nav-item" href="#Black Bear">Black Bear</a>
+                <a class="nav-item" href="#Polar Bear">Polar Bear</a>
+                <a class="nav-item" href="#Panda Bear">Panda Bear</a>
+            </div>
+        </div>
+        <a href="jordanzoo.html">Jordan's Zoo</a>
+    </nav>
+    <br>
+
+    <h2 class="animal_title" id="Grizzly Bear">Grizzly Bear</h2>
     <br>
     <div class="container">
         <img id="bear_pic" src="pictures/grizzly.jpeg" alt="grizzly bear">
@@ -31,7 +47,7 @@
     
     <br><hr>
 
-    <h2 id="animal_title">Black Bear</h2>
+    <h2 class="animal_title" id="Black Bear">Black Bear</h2>
     <br>
     <div class="container">
         <img id="bear_pic" src="pictures/blackbear.jpeg" alt="black bear">
@@ -49,7 +65,7 @@
     
     <br><hr>
 
-    <h2 id="animal_title">Polar Bear</h2>
+    <h2 class="animal_title" id="Polar Bear">Polar Bear</h2>
     <br>
     <div class="container">
         <img id="bear_pic" src="pictures/polarbear.jpeg" alt="polar bear">
@@ -67,7 +83,7 @@
     
     <br><hr>
     
-    <h2 id="animal_title">Panda Bear</h2>
+    <h2 class="animal_title" id="Panda Bear">Panda Bear</h2>
     <br>
     <div class="container">
         <img id="bear_pic" src="pictures/panda.jpeg" alt="panda">
@@ -86,7 +102,6 @@
 
     <form>
         <input type="button" class="back_button" value="Jordan's Zoo" onclick="window.location.href = 'jordanzoo.html'">
-        <input type="button" class="back_button" value="Home Page" onclick="window.location.href = '../index.html'">
     </form>
     
 </body>

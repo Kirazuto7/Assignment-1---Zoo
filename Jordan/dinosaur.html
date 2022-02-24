@@ -14,7 +14,23 @@
     <h1 class="title"><u>Welcome to the Dino Penn</u></h1>
     <h3 id="sub_heading">Take a trip back in time...but <em>beware</em></h3>
 
-    <h2 id="animal_title">T-Rex</h2>
+    <nav class="navbar">
+        <a href="../index.html">Home Page</a>
+        <div class="animal_dropdown">
+            <button class="drop_button">Animals &darr; 
+            </button>
+            <div class="dropdown_content">
+                <a class="nav-item" href="#T-Rex">T-Rex</a>
+                <a class="nav-item" href="#Velociraptor">Velociraptor</a>
+                <a class="nav-item" href="#Apatosaurus">Apatosaurus</a>
+                <a class="nav-item" href="#Mosasaurus">Mosasaurus</a>
+            </div>
+        </div>
+        <a href="jordanzoo.html">Jordan's Zoo</a>
+    </nav>
+    <br>
+
+    <h2 class="animal_title" id="T-Rex">T-Rex</h2>
     <br>
     <div class="container">
         <img id="dino_pic" src="pictures/trex.jpg" alt="trex">
@@ -31,7 +47,7 @@
     
     <br><hr>
 
-    <h2 id="animal_title">Velociraptor</h2>
+    <h2 class="animal_title" id="Velociraptor">Velociraptor</h2>
     <br>
     <div class="container">
         <img id="dino_pic" src="pictures/raptor.jpg" alt="raptor">
@@ -48,7 +64,7 @@
     
     <br><hr>
 
-    <h2 id="animal_title">Apatosaurus</h2>
+    <h2 class="animal_title" id="Apatosaurus">Apatosaurus</h2>
     <br>
     <div class="container">
         <img id="dino_pic" src="pictures/apatosaurus.jpg" alt="apatosaurus">
@@ -65,7 +81,7 @@
     </div>
     <br><hr>
 
-    <h2 id="animal_title2">Mosasaurus</h2>
+    <h2 class="animal_title2" id="Mosasaurus">Mosasaurus</h2>
     <br>
     <div class="container">
         <img id="dino_pic" src="pictures/mosasaurus.webp" alt="mosasaurus">
@@ -82,7 +98,6 @@
 
     <form>
         <input type="button" class="back_button" value="Jordan's Zoo" onclick="window.location.href = 'jordanzoo.html'">
-        <input type="button" class="back_button" value="Home Page" onclick="window.location.href = '../index.html'">
     </form>
     
 </body>
