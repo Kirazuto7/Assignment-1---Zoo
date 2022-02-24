@@ -1,33 +1,80 @@
 body {
-    font-family: Gill Sans, sans-serif;
+    font-family: 'Work Sans', sans-serif;
     background-color: #7b3f00;
+    background: url(../pictures/bearcounty.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     text-align: center;
     color: #dfd268;
 }
 
+.title {
+    font-family: 'Architects Daughter', cursive;
+    font-size: 50px;
+    color: #dfd268;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px #000;
+}
+
+#animal_title {
+    font-family: 'Architects Daughter', cursive;
+    font-size: 40px;
+    color: #dfd268;
+    border-radius: 15px;
+    background-color: black;
+    box-shadow: 5px 5px #dfd268;
+    max-width: fit-content;
+    margin: 0 auto;
+}
+
 .container {
     display:flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    height: 500px;
+    justify-content: center;
 }
 
 #bear_pic {
     float:left;
-    width: 55%;
-    height: 55%;
-    box-sizing: border-box;
-    margin-left: 40px;
+    margin-left: 80px;
     border: 2px black solid;
+    border-right: 1px;
+    width: 700px;
 }
 
 #description {
     float:right;
-    width: 40%;
+    width: 700px;
     box-sizing:border-box;
-    padding: 20px;
     border:2px black solid;
-    font-size: 20px;
+    font-size: 23px;
+    flex-wrap: wrap;
+    background-color: black;
+}
+
+#text {
+    margin: 0 auto;
+    position:relative;
+    top: 20%;
+    bottom: 50%;
 }
 
 hr {
     border: 1px solid black;
+}
+
+.back_button {
+    padding: 10px 20px;
+    background-color: lightgreen;
+    color: black;
+}
+
+.back_button:hover {
+    background-color: black;
+    color: white;
+}
+
+.back_button:active {
+    color: red;
 }

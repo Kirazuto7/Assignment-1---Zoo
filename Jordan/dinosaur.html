@@ -6,34 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jordan's Zoo</title>
     <link rel="stylesheet" type="text/css" href="css/dinosaur.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Noto+Serif+Display&family=Work+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1><u>Welcome to the Dino Penn</u></h1>
+    <h1 class="title"><u>Welcome to the Dino Penn</u></h1>
     <h3 id="sub_heading">Take a trip back in time...but <em>beware</em></h3>
 
-    <h2>T-Rex</h2>
+    <h2 id="animal_title">T-Rex</h2>
+    <br>
     <div class="container">
         <img id="dino_pic" src="pictures/trex.jpg" alt="trex">
         <aside id="description">
-            <p>
+            <p id="text">
                 The species Tyrannosaurus rex (rex meaning "king" in Latin), often called T. rex or colloquially T-Rex, is a genus of large theropod dinosaur.
-                Tyrannosaurus lived throughout what is now western North America, on what was then an island continent known as Laramidia.
-                yrannosaurus was a bipedal carnivore with a massive skull balanced by a long, heavy tail. Relative to its large and powerful hind limbs, the forelimbs of Tyrannosaurus were short but unusually powerful for their size, 
+                Tyrannosaurus was a bipedal carnivore with a massive skull balanced by a long, heavy tail. Relative to its large and powerful hind limbs, the forelimbs of Tyrannosaurus were short but unusually powerful for their size, 
                 and they have two clawed digits. It is still among the largest known land predators and is estimated to have exerted the 
                 strongest bite force among all terrestrial animals. By far the largest carnivore in its environment, Tyrannosaurus rex was 
-                most likely an apex predator, preying upon hadrosaurs, juvenile armored herbivores like ceratopsians and ankylosaurs, and 
-                possibly sauropods. T. rex is one of the largest land carnivores of all time. <strong>BE CAREFUL NOT TO GET TOO CLOSE!</strong>
+                most likely an apex predator. T. rex is one of the largest land carnivores of all time. <strong>BE CAREFUL NOT TO GET TOO CLOSE!</strong>
             </p>
         </aside>
     </div>
     
     <br><hr>
 
-    <h2>Velociraptor</h2>
+    <h2 id="animal_title">Velociraptor</h2>
+    <br>
     <div class="container">
         <img id="dino_pic" src="pictures/raptor.jpg" alt="raptor">
         <aside id="description">
-            <p>
+            <p id="text">
                 Velociraptor is a genus of dromaeosaurid theropod dinosaur. Smaller than other dromaeosaurids like Deinonychus and 
                 Achillobator, Velociraptor nevertheless shared many of the same anatomical features. It was a bipedal, feathered carnivore 
                 with a long tail and an enlarged sickle-shaped claw on each hindfoot, which is thought to have been used to tackle and tear 
@@ -45,28 +48,29 @@
     
     <br><hr>
 
-    <h2>Apatosaurus</h2>
+    <h2 id="animal_title">Apatosaurus</h2>
+    <br>
     <div class="container">
         <img id="dino_pic" src="pictures/apatosaurus.jpg" alt="apatosaurus">
         <aside id="description">
-            <p>
+            <p id="text">
                 A herbivorous sauropod, Apatosaurus, used its peg-like teeth to strip leaves from trees but not for chewing. 
                 It probably swallowed stones in order to grind food in its gizzard. Apatosaurus could whip its tail to defend itself 
                 from meat eaters. It measured around 33 tons and was approximately 70 feet long. Apatosaurus used to be known as 
                 brontosaurus as a result of a labeling error. The cervical vertebrae of Apatosaurus are less elongated and more heavily 
                 constructed than those of Diplodocus, a diplodocid like Apatosaurus, and the bones of the leg are much stockier despite
-                being longer, implying that Apatosaurus was a more robust animal. The tail was held above the ground during normal 
-                locomotion. Apatosaurus had a single claw on each forelimb and three on each hindlimb.
+                being longer, implying that Apatosaurus was a more robust animal.
             </p>
         </aside>
     </div>
     <br><hr>
 
-    <h2>Mosasaurus</h2>
+    <h2 id="animal_title2">Mosasaurus</h2>
+    <br>
     <div class="container">
         <img id="dino_pic" src="pictures/mosasaurus.webp" alt="mosasaurus">
-        <aside id="description">
-            <p>
+        <aside id="description2">
+            <p id="text">
                 The Mosasaurus was a carnivorous aquatic hunter, and their prey was most likely fish, marine reptiles, birds, 
                 pterosaurs, smaller mosasaurs and maybe even land dinosaurs. The length of the Mosasaurus was greater then the fearsome Tyrannosaur rex.
                 The teeth of a Mosasaurus were shaped like sharp spikes, allowing them grip and hold onto their prey. The double-hinged 
@@ -77,7 +81,8 @@
     <br>
 
     <form>
-        <input type="button" value="Back" onclick="history.back()">
+        <input type="button" class="back_button" value="Jordan's Zoo" onclick="window.location.href = 'jordanzoo.html'">
+        <input type="button" class="back_button" value="Home Page" onclick="window.location.href = '../index.html'">
     </form>
     
 </body>
