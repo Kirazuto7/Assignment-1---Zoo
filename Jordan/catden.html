@@ -6,15 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jordan's Zoo</title>
     <link rel="stylesheet" type="text/css" href="css/catden.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Noto+Serif+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display&family=Work+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1><u>Welcome to the Cat Den</u></h1>
+    <h1 class="title"><u>Welcome to the Cat Den</u></h1>
 
-    <h2>Tiger</h2>
+    <h2 id="animal_title">Tiger</h2>
     <div class="container">
-        <img id="cat_pic" src="pictures/tiger.jpg" alt="tiger">
+        <img id="cat_pic" 
+             src="pictures/tiger.jpg" 
+             alt="tiger" />
         <aside id="description">
-            <p>
+            <p id="text">
                 The tiger is the largest living cat species and a member of the genus Panthera. 
                 It is most recognisable for its dark vertical stripes on orange fur with a white underside. 
                 An apex predator, it primarily preys on ungulates such as deer and wild boar. It is territorial and generally a solitary 
@@ -27,30 +33,30 @@
     
     <br><hr>
 
-    <h2>White Tiger</h2>
+    <h2 id="animal_title">White Tiger</h2>
     <div class="container">
-        <img id="cat_pic" src="pictures/white_tiger.jpg" alt="white tiger">
+        <img id="cat_pic"
+             src="pictures/white_tiger.jpg" 
+             alt="white tiger">
         <aside id="description">
-            <p>
+            <p id="text">
                 The white tiger or bleached tiger is a leucistic pigmentation variant of the Bengal tiger, Siberian tiger and hybrids 
                 between the two.  It has the typical black stripes of a tiger, but carries a white or near-white coat. 
                 The white Bengal tigers are distinctive due to the color of their fur. The white fur caused by a lack of the pigment 
                 pheomelanin, which is found in Bengal tigers with orange color fur. When compared to Bengal tigers, the white Bengal tigers 
                 tend to grow faster and heavier than the orange Bengal tiger. They also tend to be somewhat bigger at birth, and as fully grown 
-                adults. White Bengal tigers are fully grown when they are 2–3 years of age. White male tigers reach weights of 200 to 230 
-                kilograms (440 to 510 lb) and can grow up to 3 meters (9.8 ft) in length. As with all tigers, the white Bengal tiger’s stripes 
-                are like fingerprints, with no two tigers having the same pattern. The stripes of the tiger are a pigmentation of the skin.
+                adults. 
             </p>
         </aside>
     </div>
     
     <br><hr>
 
-    <h2>Lion</h2>
+    <h2 id="animal_title">Lion</h2>
     <div class="container">
         <img id="cat_pic" src="pictures/lion.jpg" alt="lion">
         <aside id="description">
-            <p>
+            <p id="text">
                 The lion (Panthera leo) is a large cat of the genus Panthera native to Africa and India. It has a muscular, 
                 deep-chested body, short, rounded head, round ears, and a hairy tuft at the end of its tail. It is sexually dimorphic; 
                 adult male lions are larger than females and have a prominent mane. It is a social species, forming groups called prides.
@@ -63,11 +69,11 @@
     
     <br><hr>
     
-    <h2>Liger</h2>
+    <h2 id="animal_title">Liger</h2>
     <div class="container">
         <img id="cat_pic" src="pictures/liger.jpg" alt="liger">
         <aside id="description">
-            <p>
+            <p id="text">
                 The liger is a hybrid offspring of a male lion (Panthera leo) and a female tiger (Panthera tigris). 
                 The liger has parents in the same genus but of different species. The liger is distinct from the similar hybrid called 
                 the tigon, and is the largest of all known extant felines. They enjoy swimming, which is a characteristic of tigers, 
@@ -80,7 +86,7 @@
     <br>
 
     <form>
-        <input type="button" value="Back" onclick="history.back()">
+        <input type="button" class="back_button" value="Jordan's Zoo" onclick="history.back()">
     </form>
     
 </body>

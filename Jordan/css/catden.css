@@ -1,33 +1,76 @@
 body {
-    font-family: Gill Sans, sans-serif;
+    font-family: 'Noto Serif Display', serif;
+    font-family: 'Work Sans', sans-serif;
     background-color: #f17836;
+    background: url(../pictures/catden.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     text-align: center;
-    color: black;
+    color: white;
+    font-style: normal;
+}
+
+.title {
+    font-family: 'Lora', serif;
+    font-family: 'Noto Serif Display', serif;
+    font-size: 50px;
+}
+
+#animal_title {
+    font-family: 'Lora', serif;
+    font-family: 'Noto Serif Display', serif;
+    font-size: 30px;
 }
 
 .container {
     display:flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    height: 500px;
+    justify-content: center;
 }
 
 #cat_pic {
     float:left;
-    width: 50%;
-    height: 50%;
-    box-sizing: border-box;
     margin-left: 80px;
     border: 2px black solid;
+    border-right: 1px;
+    width: 700px;
 }
 
 #description {
     float:right;
-    width: 40%;
+    width: 700px;
     box-sizing:border-box;
-    padding: 20px;
     border:2px black solid;
-    font-size: 20px;
+    font-size: 23px;
+    word-wrap: break-word;
+    background-color: black;
+}
+
+#text {
+    margin: 0 auto;
+    position:relative;
+    top: 20%;
+    bottom: 50%;
 }
 
 hr {
     border: 1px solid black;
+}
+
+.back_button {
+    padding: 10px 20px;
+    background-color: lightgreen;
+    color: black;
+}
+
+.back_button:hover {
+    background-color: black;
+    color: white;
+}
+
+.back_button:active {
+    color: red;
 }
