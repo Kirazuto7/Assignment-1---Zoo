@@ -10,34 +10,6 @@ body {
     color: yellow;
 }
 
-.navbar {
-    padding: 15px;
-    background-color: green;
-    display: flex;
-    font-size: 30px;
-    text-decoration: none;
-    color: #fff;
-}
-
-.nav-item {
-    margin: 0;
-    padding: 0;
-    flex: 1;
-    max-width: 50%;
-    display: flex;
-    justify-content: space-evenly;
-    font-size: 25px;
-    color: white;
-}
-
-.nav-item:hover {
-    color: yellow;
-}
-
-.nav-item:active {
-    color: red;
-}
-
 .animal_containers {
     min-height: 100%;
     display: flex;
