@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Work Sans', sans-serif;
     background-color: #f17836;
@@ -163,17 +167,16 @@ hr {
     border: 1px solid black;
 }
 
-.back_button {
+.button {
     padding: 10px 20px;
-    background-color: lightgreen;
-    color: black;
-}
-
-.back_button:hover {
     background-color: black;
     color: white;
 }
 
-.back_button:active {
+.button:hover {
+    color: #f17836;
+}
+
+.button:active {
     color: red;
 }

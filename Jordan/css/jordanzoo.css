@@ -98,3 +98,11 @@ body {
     color: white;
 }
 
+.back_button:hover {
+    color: yellow;
+}
+
+.back_button:active {
+    color: red;
+}
+
