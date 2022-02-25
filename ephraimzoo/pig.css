@@ -27,23 +27,25 @@ table{
     border-radius: 10px;
 }
 
-#mytopBtn {
-  position: fixed;
-  bottom: 20px;
-  right: 30px;
-  z-index: 99;
-  border: none;
-  outline: none;
-  background-color: #a11818;
-  color: #e5b3e3;
-  cursor: n-resize;
-  padding: 15px;
-  border-radius: 10px;
-  font-size: 18px;
-}
-
-#mytopBtn:hover {
-  background-color: #444857;
+a{
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #a11818;
+    color: #e5b3e3;
+    cursor: n-resize;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-family: Arial, Courier, Impact;
+    text-decoration: none;
+  }
+  
+a:hover {
+    background-color: #444857;
 }
 
 #mybackBtn {
