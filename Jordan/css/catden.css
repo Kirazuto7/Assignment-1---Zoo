@@ -10,24 +10,38 @@ body {
     font-style: normal;
 }
 
+header {
+    height: 50px;
+}
+
 .navbar {
-    padding: 15px;
+    padding: 10px;
     background-color: black;
     display: flex;
     font-size: 30px;
     text-decoration: none;
     color: #fff;
-    overflow: hidden;
     justify-content: space-evenly;
+    position: absolute;
+    top: 0;
+    width: 100%;
 }
 
 .navbar a {
     float: left;
-    font-size: 16px;
+    font-size: 20px;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+}
+
+.navbar a:hover {
+    color: #f17836;
+}
+
+.navbar a:active {
+    color: red;
 }
 
 .animal_dropdown {
@@ -36,7 +50,7 @@ body {
 }
 
 .animal_dropdown .drop_button {
-    font-size: 16px;
+    font-size: 20px;
     border: none;
     outline: none;
     color: white;
@@ -44,6 +58,10 @@ body {
     background-color: inherit;
     font-family: inherit;
     margin: 0;
+}
+
+.animal_dropdown .drop_button:hover {
+    color: #f17836;
 }
 
 .nav-item {
@@ -56,14 +74,6 @@ body {
     font-size: 25px;
     color: white;
     background-color: black;
-}
-
-.nav-item:hover {
-    color: #f17836;
-}
-
-.nav-item:active {
-    color: red;
 }
 
 .dropdown_content {
@@ -101,6 +111,9 @@ body {
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px #000;
 }
 
+.animal_container {
+    margin-top: 200px;
+}
 
 .animal_title {
     font-family: 'Lora', serif;

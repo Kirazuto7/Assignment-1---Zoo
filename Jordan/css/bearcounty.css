@@ -9,6 +9,10 @@ body {
     color: #dfd268;
 }
 
+header {
+    height: 50px;
+}
+
 .navbar {
     padding: 15px;
     background-color: black;
@@ -16,8 +20,10 @@ body {
     font-size: 30px;
     text-decoration: none;
     color: #fff;
-    overflow: hidden;
     justify-content: space-evenly;
+    position: absolute;
+    top: 0;
+    width: 100%;
 }
 
 .navbar a {
@@ -27,6 +33,14 @@ body {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+}
+
+.navbar a:hover {
+    color: #dfd268;
+}
+
+.navbar a:active {
+    color: red;
 }
 
 .animal_dropdown {
@@ -45,6 +59,10 @@ body {
     margin: 0;
 }
 
+.animal_dropdown .drop_button:hover {
+    color: #dfd268;
+}
+
 .nav-item {
     margin: 0;
     padding: 0;
@@ -55,14 +73,6 @@ body {
     font-size: 25px;
     color: white;
     background-color: black;
-}
-
-.nav-item:hover {
-    color: #f17836;
-}
-
-.nav-item:active {
-    color: red;
 }
 
 .dropdown_content {
@@ -92,6 +102,10 @@ body {
     font-size: 50px;
     color: #dfd268;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px #000;
+}
+
+.animal_container {
+    margin-top: 150px;
 }
 
 .animal_title {
